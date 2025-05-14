@@ -1,12 +1,13 @@
-
 {
   "name": "homasnotebook",
   "version": "1.0.0",
   "description": "A field notebook for hazardous materials information",
+  "homepage": "https://madorPele1.github.io/HomasNotebook",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/heebo": "^5.2.5",
@@ -16,7 +17,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^6.3.0",
     "vite": "^5.0.0"
   }
 }
-
